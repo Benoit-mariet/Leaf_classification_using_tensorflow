@@ -38,22 +38,38 @@ This project aims to develop a Python-based system that accurately recognizes an
 
 ## 3. Performance Metrics
 
-### Achievements:
-- **Tree Species Classification Accuracy**: XX% on the test dataset.
-- **Disease Detection Accuracy**: XX%.
-- **Speed**: Average inference time per image: XX ms.
-- **Memory Efficiency**: Model size: XX MB.
+### For the training of the model (training_code)
 
-### Visualizations:
+#### Achievements:
+- **Tree Species Classification and Disease Detection Accuracy**: 82% on the test dataset.
+- **Speed**: Total time of the training: ~ 4 hours (24 minutes per Epochs).
+- **RAM used**: ~ 5GB for the training
+- **Memory Efficiency**: Model size: 11 Mo.
+
+#### Visualizations:
 - **Accuracy Over Epochs**  
   ![Accuracy Graph](data/accuracy_graph.png)
 - **Loss Over Epochs**  
   ![Loss Graph](data/loss_graph.png)  
 
 
+### For the use of the model (application_code)
+
+#### Achievements:
+- **Speed**: Total time of the execution of the code for 1 image: ~ 15 seconds.
+- **RAM used**: ~ 5GB 
+- **Memory Efficiency**: Model size: 11 Mo.
+
+
 ---
 
-## 4. References and Documentation
+## 4. Installation and Usages
+
+
+
+---
+
+## 5. References and Documentation
 
 This project uses the following technologies and libraries:
 - [TensorFlow](https://www.tensorflow.org/) with MobileNetV2 architecture
@@ -63,7 +79,7 @@ Additional reading:
 
 ---
 
-## 5. Issues and Contributions
+## 6. Issues and Contributions
 
 ### Known Issues:
 - **Low-Quality Images**: Model accuracy decreases with blurry or noisy images.
