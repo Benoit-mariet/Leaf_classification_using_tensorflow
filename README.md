@@ -46,7 +46,9 @@ This project aims to develop a Python-based system that accurately recognizes an
 
 ### Visualizations:
 - **Accuracy Over Epochs**  
-  ![Accuracy Graph](data/accuracy_graph.jpg)  
+  ![Accuracy Graph](data/accuracy_graph.png)
+- **Loss Over Epochs**  
+  ![Loss Graph](data/loss_graph.png)  
 
 
 ---
