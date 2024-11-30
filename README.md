@@ -19,10 +19,14 @@ This project aims to develop a Python-based system that accurately recognizes an
 ## 2. Source Code
 
 ### Project Structure:
-/project-root
-  ├── /data             # Dataset folder
-  ├── /models           # Pre-trained models
-  ├── main.py           # Main script for training and prediction
-  ├── requirements.txt  # Python dependencies
-  ├── README.md         # Project documentation
-  └── utils.py          # Helper functions for preprocessing and evaluation
+
+### Project Structure
+
+- **/project-root**  
+  - **/data**: Dataset folder  
+  - **/models**: Pre-trained models  
+  - **main.py**: Main script for training and prediction  
+  - **requirements.txt**: Python dependencies  
+  - **README.md**: Project documentation  
+  - **utils.py**: Helper functions for preprocessing and evaluation  
+
