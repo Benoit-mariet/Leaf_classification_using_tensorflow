@@ -46,16 +46,14 @@ This project aims to develop a Python-based system that accurately recognizes an
 
 ### Visualizations:
 - **Accuracy Over Epochs**  
-  ![Accuracy Graph](link-to-accuracy-graph)  
-- **Confusion Matrix**  
-  ![Confusion Matrix](link-to-confusion-matrix)  
+  ![Accuracy Graph](data/accuracy_graph.jpg)  
+
 
 ---
 
 ## 4. References and Documentation
 
 This project uses the following technologies and libraries:
-- [OpenCV](https://docs.opencv.org/)
 - [TensorFlow](https://www.tensorflow.org/) with MobileNetV2 architecture
 
 Additional reading:
