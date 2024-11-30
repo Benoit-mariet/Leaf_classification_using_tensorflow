@@ -23,10 +23,18 @@ This project aims to develop a Python-based system that accurately recognizes an
 ### Project Structure
 
 - **/project-root**  
-  - **/data**: Dataset folder  
-  - **/models**: Pre-trained models  
-  - **main.py**: Main script for training and prediction  
+  - **/model**: File containig the pre-trained model
+      - **modele_feuille.h5**: Model  pre-trained
+  - **/code**: contains the different code
+      - **training_code.py**: it's the code used for trained the model
+      - **application_code.py**: it's the main code using the pre-trained model to make the tree leaf recognition
   - **requirements.txt**: Python dependencies  
   - **README.md**: Project documentation  
   - **utils.py**: Helper functions for preprocessing and evaluation  
+
+
+
+
+
+
 
