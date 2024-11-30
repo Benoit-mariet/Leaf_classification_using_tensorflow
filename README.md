@@ -34,6 +34,47 @@ This project aims to develop a Python-based system that accurately recognizes an
 
 
 
+---
+
+## 3. Performance Metrics
+
+### Achievements:
+- **Tree Species Classification Accuracy**: XX% on the test dataset.
+- **Disease Detection Accuracy**: XX%.
+- **Speed**: Average inference time per image: XX ms.
+- **Memory Efficiency**: Model size: XX MB.
+
+### Visualizations:
+- **Accuracy Over Epochs**  
+  ![Accuracy Graph](link-to-accuracy-graph)  
+- **Confusion Matrix**  
+  ![Confusion Matrix](link-to-confusion-matrix)  
+
+---
+
+## 4. References and Documentation
+
+This project uses the following technologies and libraries:
+- [OpenCV](https://docs.opencv.org/)
+- [TensorFlow](https://www.tensorflow.org/) with MobileNetV2 architecture
+
+Additional reading:
+- [Image Classification with Deep Learning](https://www.tensorflow.org/tutorials/images/classification)
+
+---
+
+## 5. Issues and Contributions
+
+### Known Issues:
+- **Low-Quality Images**: Model accuracy decreases with blurry or noisy images.
+- **Dataset Imbalance**: Limited samples for certain species or diseased leaves.
+
+### How to Contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/new-feature
+
 
 
 
