@@ -30,7 +30,7 @@ This project aims to develop a Python-based system that accurately recognizes an
       - **application_code.py**: it's the main code using the pre-trained model to make the tree leaf recognition
   - **requirements.txt**: Python dependencies  
   - **README.md**: Project documentation  
-  - **utils.py**: Helper functions for preprocessing and evaluation  
+
 
 
 
