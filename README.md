@@ -133,8 +133,8 @@ This project uses the following technologies and libraries:
 Additional reading:
 - [Image Classification with Deep Learning](https://www.tensorflow.org/tutorials/images/classification)
 
-Original Dataset (modifications have been made) : 
--[Plant_leaves_dataset](https://www.kaggle.com/datasets/csafrit2/plant-leaves-for-image-classification/data)
+Original Dataset (modifications have been made): 
+- [Plant_leaves_dataset](https://www.kaggle.com/datasets/csafrit2/plant-leaves-for-image-classification/data)
 
 ---
 
