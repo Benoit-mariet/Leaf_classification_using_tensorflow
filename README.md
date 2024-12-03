@@ -80,24 +80,22 @@ To train my model, I used this dataset, which contains images of healthy and dis
 
 ## 4. Installation and Usages
 
-# Tree Leaf Recognition Project - Setup Guide
+### Step 1: Required Installations
 
-## Step 1: Required Installations
-
-### 1. Download the Necessary Files
+#### 1. Download the Necessary Files
 - Clone or download the files from the GitHub repository.
-- **Dataset Download (for training your own model):** [LINK TO DATASET]
+- **Dataset Download (for training your own model):** [https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link]
 - Ensure you have a compatible Python environment (e.g., Spyder or Anaconda).
 
-### 2. Library Installation
+#### 2. Library Installation
 
-#### To Use `application_code` (Tree Leaf Recognition Code):
+##### To Use `application_code` (Tree Leaf Recognition Code):
 - **TensorFlow:**  
   Run `pip install tensorflow` in the terminal or `conda install tensorflow` if using Anaconda.
 - **NumPy** (if not pre-installed):  
   Run `pip install numpy` in the terminal or `conda install numpy` if using Anaconda.
 
-#### To Train Your Own Model with `training_code`:
+##### To Train Your Own Model with `training_code`:
 - **TensorFlow:** Same as above.
 - **Psutil:**  
   Run `pip install psutil` in the terminal or `conda install psutil` if using Anaconda.
@@ -106,14 +104,14 @@ To train my model, I used this dataset, which contains images of healthy and dis
 
 ---
 
-## Step 2: Code Modifications
+### Step 2: Code Modifications
 
 Both `application_code` and `training_code` require access to specific file paths on your computer.  
 You must update the paths in the code (indicated by comments: **# !!!!!! Change the path accordingly !!!!!!**) with the correct file locations on your system.
 
 ---
 
-## Step 3: Usage Instructions
+### Step 3: Usage Instructions
 
 Once you’ve correctly updated the paths and installed all necessary libraries, you can run the program:  
 
