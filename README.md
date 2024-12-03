@@ -80,6 +80,49 @@ To train my model, I used this dataset, which contains images of healthy and dis
 
 ## 4. Installation and Usages
 
+# Tree Leaf Recognition Project - Setup Guide
+
+## Step 1: Required Installations
+
+### 1. Download the Necessary Files
+- Clone or download the files from the GitHub repository.
+- **Dataset Download (for training your own model):** [LINK TO DATASET]
+- Ensure you have a compatible Python environment (e.g., Spyder or Anaconda).
+
+### 2. Library Installation
+
+#### To Use `application_code` (Tree Leaf Recognition Code):
+- **TensorFlow:**  
+  Run `pip install tensorflow` in the terminal or `conda install tensorflow` if using Anaconda.
+- **NumPy** (if not pre-installed):  
+  Run `pip install numpy` in the terminal or `conda install numpy` if using Anaconda.
+
+#### To Train Your Own Model with `training_code`:
+- **TensorFlow:** Same as above.
+- **Psutil:**  
+  Run `pip install psutil` in the terminal or `conda install psutil` if using Anaconda.
+- **Time:** Already pre-installed with Python.
+- **Pandas:** Usually pre-installed with Python.
+
+---
+
+## Step 2: Code Modifications
+
+Both `application_code` and `training_code` require access to specific file paths on your computer.  
+You must update the paths in the code (indicated by comments: **# !!!!!! Change the path accordingly !!!!!!**) with the correct file locations on your system.
+
+---
+
+## Step 3: Usage Instructions
+
+Once you’ve correctly updated the paths and installed all necessary libraries, you can run the program:  
+
+1. For `application_code`, ensure the path of the test image is correct.  
+2. The program will identify the species among 11 possible options and indicate whether the leaf is healthy or diseased.  
+   - **D**: Diseased  
+   - **H**: Healthy
+
+Launch the program, and it will display the predicted species and health status of the leaf.
 
 
 ---
