@@ -5,17 +5,17 @@
 This project aims to develop a Python-based system that accurately recognizes and classifies tree species using leaf images. Additionally, the system detects whether a leaf is healthy or diseased, enhancing its potential applications in ecology, forestry, and biodiversity conservation.
 
 This is the 11 species of leaves the model can recognize : 
-Mango
-Arjun 
-Alstonia Scholaris 
-Gauva 
-Jamun 
-Jatropha
-Pongamia Pinnata 
-Basil 
-Pomegranate 
-Lemon 
-Chinar
+Mango,
+Arjun, 
+Alstonia Scholaris, 
+Gauva,
+Jamun, 
+Jatropha,
+Pongamia Pinnata, 
+Basil, 
+Pomegranate, 
+Lemon, 
+Chinar,
 
 To train my model, I used this dataset, which contains images of healthy and diseased leaves of these species : https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link 
 
@@ -84,7 +84,7 @@ To train my model, I used this dataset, which contains images of healthy and dis
 
 #### 1. Download the Necessary Files
 - Clone or download the files from the GitHub repository.
-- **Dataset Download (for training your own model):** [https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link]
+- **Dataset Download (for training your own model):** [Dataset](https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link)
 - Ensure you have a compatible Python environment (e.g., Spyder or Anaconda).
 
 #### 2. Library Installation
@@ -133,6 +133,9 @@ This project uses the following technologies and libraries:
 Additional reading:
 - [Image Classification with Deep Learning](https://www.tensorflow.org/tutorials/images/classification)
 
+Original Dataset (modifications have been made) : 
+-[Plant_leaves_dataset](https://www.kaggle.com/datasets/csafrit2/plant-leaves-for-image-classification/data)
+
 ---
 
 ## 6. Issues and Contributions
@@ -140,6 +143,8 @@ Additional reading:
 ### Known Issues:
 - **Low-Quality Images**: Model accuracy decreases with blurry or noisy images.
 - **Dataset Imbalance**: Limited samples for certain species or diseased leaves.
+- **Lack of image variety**: The photos are all taken in the same environnement.
+- **Speed of the code**: Both training and application can be limiting with their time of execution (non-industrial usage).
 
 ### How to Contribute:
 1. Fork the repository.
@@ -147,6 +152,18 @@ Additional reading:
    ```bash
    git checkout -b feature/new-feature
 
+---
+
+## 7. Future Work
+
+### Potential Improvements: 
+- **Expand Dataset**: Include more species and additional leaf conditions to improve model generalization.
+- **Optimize Model**: Reduce the model's size and memory usage for faster performance on lower-spec devices, including mobile deployment.
+- **Real-time Detection**: Implement a real-time detection system using a camera feed to identify species and health status on the go.
+- **User Interface Development**: Create a user-friendly GUI or mobile app for easier interaction with the model, making it more accessible to non-technical users.
+- **Explainability**: Implement visualization techniques to explain the model's decisions, helping users understand why a particular species or disease status was predicted.
+
+These improvements aim to broaden the system's usability, enhance its performance, and expand its applicability in diverse fields.
 
 
 
