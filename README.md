@@ -15,7 +15,7 @@ Pongamia Pinnata,
 Basil, 
 Pomegranate, 
 Lemon, 
-Chinar,
+Chinar.
 
 To train my model, I used this dataset, which contains images of healthy and diseased leaves of these species : https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link 
 
