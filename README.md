@@ -102,14 +102,12 @@ To train my model, I used this dataset, which contains images of healthy and dis
 - **Time:** Already pre-installed with Python.
 - **Pandas:** Usually pre-installed with Python.
 
----
 
 ### Step 2: Code Modifications
 
 Both `application_code` and `training_code` require access to specific file paths on your computer.  
 You must update the paths in the code (indicated by comments: **# !!!!!! Change the path accordingly !!!!!!**) with the correct file locations on your system.
 
----
 
 ### Step 3: Usage Instructions
 
