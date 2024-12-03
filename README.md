@@ -43,7 +43,7 @@ To train my model, I used this dataset, which contains images of healthy and dis
   - **/code**: contains the different code
       - **training_code.py**: it's the code used for trained the model
       - **application_code.py**: it's the main code using the pre-trained model to make the tree leaf recognition
-  - **requirements.txt**: Python dependencies  
+  - **/data**: File containing graph of metrics of the code (useless for running the code).
   - **README.md**: Project documentation  
 
 
