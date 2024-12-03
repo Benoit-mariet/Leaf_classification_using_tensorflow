@@ -4,6 +4,21 @@
 
 This project aims to develop a Python-based system that accurately recognizes and classifies tree species using leaf images. Additionally, the system detects whether a leaf is healthy or diseased, enhancing its potential applications in ecology, forestry, and biodiversity conservation.
 
+This is the 11 species of leaves the model can recognize : 
+Mango
+Arjun 
+Alstonia Scholaris 
+Gauva 
+Jamun 
+Jatropha
+Pongamia Pinnata 
+Basil 
+Pomegranate 
+Lemon 
+Chinar
+
+To train my model, I used this dataset, which contains images of healthy and diseased leaves of these species : https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link 
+
 ### Key Objectives:
 - **Tree Species Identification**: Classify leaves into corresponding species.
 - **Disease Detection**: Differentiate between healthy and diseased leaves.
