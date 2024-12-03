@@ -122,6 +122,37 @@ Once you’ve correctly updated the paths and installed all necessary libraries,
 
 Launch the program, and it will display the predicted species and health status of the leaf.
 
+##### Some precisions : 
+
+We have 22 categories in this datatest (11 species, diseased or not). The trained model is programmed to return a number between 0 and 21, corresponding to the detected category.  
+In the `application_code`, the labels (e.g., Mango H) are placed in the correct order to match the output.  
+If you wish to make any modifications, here is the mapping table between the labels and their corresponding numbers:  
+
+| Number | Label                 |  
+|--------|-----------------------|  
+| 0      | Mango H               |  
+| 1      | Arjun H               |  
+| 2      | Alstonia Scholaris H  |  
+| 3      | Guava H               |  
+| 4      | Jamun H               |  
+| 5      | Jatropha H            |  
+| 6      | Pongamia Pinnata H    |  
+| 7      | Basil H               |  
+| 8      | Pomegranate H         |  
+| 9      | Lemon H               |  
+| 10     | Chinar H              |  
+| 11     | Mango D               |  
+| 12     | Arjun D               |  
+| 13     | Alstonia Scholaris D  |  
+| 14     | Guava D               |  
+| 15     | Jamun D               |  
+| 16     | Jatropha D            |  
+| 17     | Pongamia Pinnata D    |  
+| 18     | Basil D               |  
+| 19     | Pomegranate D         |  
+| 20     | Lemon D               |  
+| 21     | Chinar D              |  
+
 
 ---
 
