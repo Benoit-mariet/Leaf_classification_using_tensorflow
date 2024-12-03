@@ -85,7 +85,7 @@ To train my model, I used this dataset, which contains images of healthy and dis
 #### 1. Download the Necessary Files
 - Clone or download the files from the GitHub repository.
 - **Dataset Download (for training your own model):** [Dataset](https://drive.google.com/file/d/1UyOY0bVCd_K3uIrHd-9mTMubu8ZoGyB5/view?usp=drive_link)
-- Ensure you have a compatible Python environment (e.g., Spyder or Anaconda).
+- Ensure you have a compatible Python environment (e.g., Spyder or Pycharm).
 
 #### 2. Library Installation
 
